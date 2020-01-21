@@ -1,20 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Karla', sans-serif;
+
 }
 
 body .backgroundImg {
     background-image: url(images/moto.gif);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 140vh;
     background-position-y: -25rem;
-    
+    background: 
 }
 
-.navBar {
- 
-}
+/* ----------NAV -------*/
 
 nav.navBar ul {
     display: flex;
@@ -23,6 +23,11 @@ nav.navBar ul {
     list-style-type: none;
     padding-top: 6%;
 }
+
+/* ----------END OF NAV-------*/
+
+/* ----------HEADER-------*/
+
 
 header {
     display: flex;
@@ -33,13 +38,85 @@ header {
     align-content: space-between;
 }
 
+
+
+header h1 {
+    margin: 40px 0 120px 0;
+    font-size: 4rem;
+    color: white;
+}
+
+header h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
 header button {
     width: 120px;
     height: 40px;
     border-radius: 10px;
+    margin-top: 3rem;
+    color: white;
+    background-color: teal;
+    border-color: teal;
+    font-size: 1rem;
+    text-transform: capitalize;
 }
 
-header h1 {
-    margin: 40px 0 90px 0;
+/* ----------END OF HEADER-------*/
 
+/* ----------MAIN-------*/
+
+.allBoxes {
+    display: flex;
+    border: green 5px solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+    align-content: space-evenly;
+}
+
+.box1 {
+    display: flex;
+    border: 3px red solid;
+    flex-direction: column;
+    width: 46vw;
+    height: 300px;
+    margin-right: 1%;
+}
+
+.box2 {
+    display: flex;
+    border: 3px red solid;
+    flex-direction: column;
+    width: 46vw;
+    height: 300px;
+    margin-left: 1%;
+
+}
+
+.box3 {
+    display: flex;
+    border: 3px red solid;
+    flex-direction: column;
+    width: 46vw;
+    height: 300px;
+    margin-right: 1%;
+
+}
+
+.box4 {
+    display: flex;
+    border: 3px red solid;
+    flex-direction: column;
+    width: 46vw;
+    height: 300px;
+    margin-left: 1%;
 }
