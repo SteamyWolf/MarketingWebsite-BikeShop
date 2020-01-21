@@ -3,10 +3,43 @@
     padding: 0;
 }
 
+body .backgroundImg {
+    background-image: url(images/moto.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-position-y: -25rem;
+    
+}
+
+.navBar {
+ 
+}
+
 nav.navBar ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     list-style-type: none;
-    padding-top: 5%;
+    padding-top: 6%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;
+}
+
+header button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 40px 0 90px 0;
+
 }
