@@ -20,7 +20,6 @@ body .backgroundImg {
     flex-direction: column;
     color: black;
     background-attachment: scroll;
-    border: red 4px solid;
 }
 
 /* ----------NAV -------*/
@@ -105,7 +104,7 @@ header button {
     justify-content: center;
     height: 520px;
     align-content: space-evenly;
-    margin: 15px 0 0 0;
+    margin: 15px 0 35px 0;
 }
 
 .box1 {
@@ -179,7 +178,6 @@ header button {
 
 
 .lowerHero {
-    border: solid red 4px;
     padding: 200px 0;
     padding-left: 100px;
     display: flex;
@@ -214,4 +212,42 @@ header button {
 .lowerHeroContent button em {
     font-size: 20px;
     padding-left: 20px;
+}
+
+.allLowerBoxes {
+    border: blue solid 4px;
+}
+
+.allLowerBoxes1 {
+    border: red solid 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0 15px 0;
+
+}
+
+.allLowerBoxes2 {
+    border: yellow solid 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0 30px 0;  
+}
+
+.allLowerBoxes section {
+    border: green solid 1px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+
+}
+
+.allLowerBoxes figure {
+
+}
+
+.allLowerBoxes img {
+
 }
