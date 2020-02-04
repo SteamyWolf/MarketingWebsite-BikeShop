@@ -4,18 +4,23 @@
     font-family: 'Karla', sans-serif;
 
 }
-@media only screen and (min-width: 500px) {
-    nav.navBar ul {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        list-style-type: none;
-        padding-top: 6%;
+@media only screen and (max-width: 500px) {
+    .allBoxes1 {
+        height: 820px;
+        border: red solid 5px;
     }
     
-    .navBar ul a:visited {
-        color: yellow;
+    .allBoxes2 {
+        height: 820px;
+        border: green 5px solid;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
 body .backgroundImg {
     background-image: url(images/backgroundMoto.jpeg);
@@ -45,7 +50,7 @@ nav.navBar ul {
 }
 
 .navBar ul a:visited {
-    color: green;
+    color: blue;
 }
 
 /* ----------END OF NAV-------*/
