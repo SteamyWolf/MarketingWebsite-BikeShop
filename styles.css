@@ -4,7 +4,19 @@
     font-family: 'Karla', sans-serif;
 
 }
-
+@media only screen and (min-width: 500px) {
+    nav.navBar ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style-type: none;
+        padding-top: 6%;
+    }
+    
+    .navBar ul a:visited {
+        color: yellow;
+    }
+}
 body .backgroundImg {
     background-image: url(images/backgroundMoto.jpeg);
     background-size: 200%;
@@ -87,8 +99,6 @@ header button {
 
 /* ----------MAIN-------*/
 
-main {
-}
 
 .allBoxes1 {
     display: flex;
@@ -246,7 +256,9 @@ main {
     padding: 15px 0 30px 0;  
 }
 
-
+.allLowerBoxes h1, p {
+    padding: 2% 10px 20px 2%; 
+}
 
 .allLowerBoxes figure {
     width: 400px;
@@ -256,4 +268,51 @@ main {
 .allLowerBoxes img {
     width: 100%;
     border-radius: 20px 20px 0 0;
+}
+
+/*--------FOOTER-------*/
+
+footer {
+  border: solid red 4px;
+  padding: 200px 0 200px 0;
+  background-image: url(/images/footerImg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position-y: -27rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.recentPosts {
+    border: green solid 3px;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    margin-right: 80px;
+}
+.recentPosts a {
+    padding: 20px 0;
+}
+.recentPosts a:visited {
+    color: white;
+}
+.recentPosts a:hover {
+    color: red;
+}
+
+
+.newsletter {
+    border: blue solid 3px;
+    flex-direction: row;
+    width: 900px;
+    height: 600px;
+    margin-left: 100px; 
+}
+
+.newsletter h2 {
+    padding-bottom: 30px;
 }
